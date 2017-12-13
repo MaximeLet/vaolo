@@ -4,6 +4,8 @@ import { IonicModule, Platform } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
+import {} from 'jasmine';
+
 import { MyApp } from './app.component';
 import {
   PlatformMock,
