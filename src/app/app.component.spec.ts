@@ -40,5 +40,9 @@ describe('MyApp Component', () => {
     expect(component instanceof MyApp).toBe(true);
   });
 
+  it('should be failed', () => {
+    expect(component instanceof MyApp).toBe(false);
+  });
+
 
 });
